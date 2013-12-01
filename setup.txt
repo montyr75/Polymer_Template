@@ -1,0 +1,8 @@
+To set up a new Polymer Dart app, follow these steps:
+
+1.	Create a new folder for your app in your Dart projects folder.
+2.	Copy the contents of the Polymer_Template folder into your new app folder.
+3.	Using the Dart Editor, select File->Open Existing Folder...
+4.	Select your new app folder.
+5.	In the Dart Editor's Files panel, right-click the new project's pubspec.yaml file and select Pub Get.
+6.	If your project still shows errors, select the root of your project in the Dart Editor's Files panel and select Tools->Reanalyze Sources.
