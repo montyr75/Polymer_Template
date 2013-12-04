@@ -20,7 +20,7 @@ class MainView extends PolymerElement {
   MainView.created() : super.created();
 
   // initialization can be done here
-  void enteredView() {
+  @override void enteredView() {
     super.enteredView();
     print("MainView::enteredView()");
   }
@@ -30,7 +30,7 @@ class MainView extends PolymerElement {
     print("MainView::eventHandler()");
   }
 
-  // prevent app reload on form submission
+  // prevent app reload on <form> submission
   void submit(Event event, var detail, Element target) {
     event.preventDefault();
   }
