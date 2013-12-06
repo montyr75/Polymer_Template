@@ -17,9 +17,10 @@ class MainView extends PolymerElement {
   // filters and transformers can be referenced as class fields
   final Transformer asInteger = new StringToInt();
 
+  // non-visual initialization can be done here
   MainView.created() : super.created();
 
-  // initialization can be done here
+  // other initialization can be done here
   @override void enteredView() {
     super.enteredView();
     print("MainView::enteredView()");

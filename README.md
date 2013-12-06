@@ -1,4 +1,5 @@
-##Set up a new Polymer Dart app
+Polymer Dart Template
+======
 
 1. Create a new folder for your app in your Dart projects folder using Windows Explorer or Mac Finder.
 2. Copy the contents of the Polymer_Template folder into your new app folder.
