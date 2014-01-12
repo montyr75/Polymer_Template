@@ -11,7 +11,7 @@ body {
 }
 
 .btn {
-  cursor: default !important;
+  cursor: default;
 }
 
 .user-select-none {
