@@ -1,4 +1,4 @@
-@import "http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.0/css/bootstrap.min.css";
+@import url("http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css");
 @import "flexbox.css";
 
 body {
