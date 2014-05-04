@@ -9,6 +9,8 @@ Polymer Dart Template
 5. The Dart Editor should do this automatically, but if not, in the Dart Editor's Files panel, right-click the new project's pubspec.yaml file and select Pub Get to install all needed dependencies.
 6. If your project shows errors at this point, select the root of your project in the Dart Editor's Files panel and select Tools->Reanalyze Sources (or use Ctrl+Alt+Shift+B).
 
+*REMINDER:* Take a moment now to edit your pubspec.yaml metadata and README.md files.
+
 #### Using LESS for CSS
 This template uses [LESS](http://lesscss.org), the CSS pre-processor. Continuing to use it for your project is optional, but recommended.
 
