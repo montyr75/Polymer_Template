@@ -1,30 +1,4 @@
 @import url("http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css");
-body {
-  background-color: #F8F8F8;
-  margin: 15px;
-}
-.box-container {
-  width: 475px;
-  border: 1px solid #ccc;
-  background-color: white;
-  padding: 10px;
-}
-.btn {
-  cursor: default;
-}
-.user-select-none {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-img {
-  -moz-user-drag: -moz-none;
-  -webkit-user-drag: none;
-  user-drag: none;
-}
 .flexbox-row-wrap {
   display: flex;
   flex-flow: row wrap;
@@ -2486,4 +2460,30 @@ img {
 .rollOut {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
+}
+body {
+  background-color: #F8F8F8;
+  margin: 15px;
+}
+.box-container {
+  width: 475px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px;
+}
+.btn {
+  cursor: default;
+}
+.user-select-none {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+img {
+  -moz-user-drag: -moz-none;
+  -webkit-user-drag: none;
+  user-drag: none;
 }
