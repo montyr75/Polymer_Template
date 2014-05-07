@@ -19,3 +19,4 @@ This template uses [LESS](http://lesscss.org), the CSS pre-processor. Continuing
 3. To compile app.css from app.less, you have a few options.
     * From the command line: `lessc app.less > app.css` (add `-x` to minify)
     * With [WebStorm](http://www.jetbrains.com/webstorm) or a compatible IDE from [Jetbrains](http://www.jetbrains.com): Set up a [File Watcher](https://www.jetbrains.com/webstorm/webhelp/using-file-watchers.html).
+    * Or [use Grunt](http://ericnishio.com/blog/compile-less-files-with-grunt) to compile them. *Note:* Windows users don't need `sudo` in their installation commands.
