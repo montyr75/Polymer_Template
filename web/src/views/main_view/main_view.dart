@@ -31,8 +31,8 @@ class MainView extends PolymerElement {
     print("MainView::eventHandler()");
   }
 
-  // prevent app reload on <form> submission
   void submit(Event event, var detail, Element target) {
+    // prevent app reload on <form> submission
     event.preventDefault();
   }
 }
