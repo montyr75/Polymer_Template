@@ -8,6 +8,8 @@ import '../../utils/filters.dart';
 @CustomTag('main-view')
 class MainView extends PolymerElement {
 
+  static const CLASS_NAME = "MainView";
+
   // constants
   static const String SAMPLE_CONSTANT = "SAMPLE_CONSTANT";
 
@@ -23,12 +25,12 @@ class MainView extends PolymerElement {
   // other initialization can be done here
   @override void enteredView() {
     super.enteredView();
-    print("MainView::enteredView()");
+    print("$CLASS_NAME::enteredView()");
   }
 
   // a sample event handler function
   void eventHandler(Event event, var detail, Element target) {
-    print("MainView::eventHandler()");
+    print("$CLASS_NAME::eventHandler()");
   }
 
   void submit(Event event, var detail, Element target) {
