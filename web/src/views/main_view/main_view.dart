@@ -22,10 +22,10 @@ class MainView extends PolymerElement {
   // non-visual initialization can be done here
   MainView.created() : super.created();
 
-  // other initialization can be done here
-  @override void enteredView() {
-    super.enteredView();
-    print("$CLASS_NAME::enteredView()");
+  // life-cycle method called by the Polymer framework when the element is attached to the DOM
+  @override void attached() {
+    super.attached();
+    print("$CLASS_NAME::attached()");
   }
 
   // a sample event handler function
