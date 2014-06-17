@@ -13,8 +13,7 @@ class MainView extends PolymerElement {
   // constants
   static const String SAMPLE_CONSTANT = "SAMPLE_CONSTANT";
 
-  // strings
-  static const String SAMPLE_STRING = "sample string";
+  @observable String bindingTest = "Binding is working...";
 
   // filters and transformers can be referenced as class fields
   final Transformer asInteger = new StringToInt();
