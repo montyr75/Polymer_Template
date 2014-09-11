@@ -1,6 +1,7 @@
 name: Polymer_Template
 description: A Polymer Dart application.
 dependencies:
+  core_elements: any
   polymer: any
 transformers:
 - polymer:
