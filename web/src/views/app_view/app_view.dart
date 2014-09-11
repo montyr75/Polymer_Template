@@ -1,14 +1,14 @@
-library main_view;
+library app_view;
 
 import 'dart:html';
 import 'package:polymer/polymer.dart';
 import 'package:polymer_expressions/filter.dart';
 import '../../utils/filters.dart';
 
-@CustomTag('main-view')
-class MainView extends PolymerElement {
+@CustomTag('app-view')
+class AppView extends PolymerElement {
 
-  static const CLASS_NAME = "MainView";
+  static const CLASS_NAME = "AppView";
 
   // constants
   static const String SAMPLE_CONSTANT = "SAMPLE_CONSTANT";
@@ -19,7 +19,7 @@ class MainView extends PolymerElement {
   final Transformer asInteger = new StringToInt();
 
   // non-visual initialization can be done here
-  MainView.created() : super.created();
+  AppView.created() : super.created();
 
   // life-cycle method called by the Polymer framework when the element is attached to the DOM
   @override void attached() {
