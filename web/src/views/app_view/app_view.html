@@ -16,7 +16,7 @@
         height: 100%;
       }
 
-      .menu-header {
+      .menu-header-text {
         font-size: 0.9em;
       }
 
@@ -36,14 +36,14 @@
       mode: Sets the mode of the main area's <core-header-panel> (default: "seamed")
 
       Scaffold Child Attributes
-      navigation: the element marked with this attribute goes into the <core-drawer-panel>
-      tool: an element marked with this attribute is included in the main area's <core-toolbar>
+      navigation: the element (0-1) marked with this attribute goes into the <core-drawer-panel>
+      tool: an element (0...) marked with this attribute is included in the main area's <core-toolbar>
     -->
 
     <core-scaffold mode="standard">
       <core-header-panel navigation flex mode="seamed">
-        <core-toolbar id="navheader">
-          <span class="menu-header">Menu</span>
+        <core-toolbar id="menu-header">
+          <span class="menu-header-text">Menu</span>
         </core-toolbar>
 
         <core-menu>
