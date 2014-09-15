@@ -12,15 +12,38 @@
     <link rel="stylesheet" href="../../../resources/css/app.css">
 
     <style>
+      :host {
+        height: 100%;
+      }
+
+      .menu-header {
+        font-size: 0.9em;
+      }
+
       .content {
         padding: 20px;
       }
     </style>
 
-    <core-scaffold>
-      <core-header-panel navigation flex>
+    <!--
+      Scaffold
+      The scaffold contains a <core-drawer-panel>, a <core-header-panel>, and a <core-toolbar>.
+      Use attributes on the scaffold's children to indicate where they should be placed.
+      Elements with no scaffold attributes are "distributed" into the main content area (not in the scaffold's Shadow DOM).
+
+      Scaffold Attributes
+      responsiveWidth: The width at which the scaffold will automatically collapse the drawer panel (default: 600px)
+      mode: Sets the mode of the main area's <core-header-panel> (default: "seamed")
+
+      Scaffold Child Attributes
+      navigation: the element marked with this attribute goes into the <core-drawer-panel>
+      tool: an element marked with this attribute is included in the main area's <core-toolbar>
+    -->
+
+    <core-scaffold mode="standard">
+      <core-header-panel navigation flex mode="seamed">
         <core-toolbar id="navheader">
-          <span>Menu</span>
+          <span class="menu-header">Menu</span>
         </core-toolbar>
 
         <core-menu>
@@ -32,7 +55,7 @@
       <span tool>Polymer_Template</span>
 
       <div class="content">
-        <p>If the menu drawer is hidden, press the hamburger button to display.</p>
+        <p>If the menu drawer is hidden, press the hamburger button to display. Resize your browser window to cause it to collapse.</p>
 
         <div class="box-container">
           {{bindingTest}}
