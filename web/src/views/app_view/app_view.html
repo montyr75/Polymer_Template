@@ -53,18 +53,18 @@
     -->
 
     <core-scaffold>
-      <core-header-panel navigation flex mode="seamed">
+      <core-header-panel mode="seamed" navigation flex>
         <core-toolbar id="drawer-header">
-          <span class="menu-header-text top">Menu</span>
+          <span class="menu-header-text">Menu</span>
         </core-toolbar>
 
-        <core-menu valueattr="label" id="core_menu" theme="core-light-theme">
-          <core-item id="core_item" icon="settings" label="Item1" horizontal center layout></core-item>
-          <core-item id="core_item1" icon="settings" label="Item2" horizontal center layout></core-item>
+        <core-menu valueattr="label" theme="core-light-theme">
+          <core-item icon="toc" label="Item1"></core-item>
+          <core-item icon="shopping-cart" label="Item2"></core-item>
         </core-menu>
       </core-header-panel>
 
-      <div id="div" tool>Polymer_Template</div>
+      <div tool>Polymer_Template</div>
 
       <div class="content">
         <p>If the menu drawer is hidden, press the hamburger button to display. Resize your browser window to cause it to collapse.</p>
