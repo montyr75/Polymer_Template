@@ -16,12 +16,24 @@
         height: 100%;
       }
 
+      #drawer-header {
+        color: rgb(255, 255, 255);
+        background-color: rgb(79, 125, 201);
+      }
+
       .menu-header-text {
         font-size: 0.9em;
       }
 
       .content {
         padding: 20px;
+      }
+
+      .box-container {
+        width: 475px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        background-color: white;
       }
     </style>
 
@@ -40,19 +52,19 @@
       tool: an element (0...) marked with this attribute is included in the main area's <core-toolbar>
     -->
 
-    <core-scaffold mode="standard">
+    <core-scaffold>
       <core-header-panel navigation flex mode="seamed">
-        <core-toolbar id="menu-header">
-          <span class="menu-header-text">Menu</span>
+        <core-toolbar id="drawer-header">
+          <span class="menu-header-text top">Menu</span>
         </core-toolbar>
 
-        <core-menu>
-          <core-item label="One"></core-item>
-          <core-item label="Two"></core-item>
+        <core-menu valueattr="label" id="core_menu" theme="core-light-theme">
+          <core-item id="core_item" icon="settings" label="Item1" horizontal center layout></core-item>
+          <core-item id="core_item1" icon="settings" label="Item2" horizontal center layout></core-item>
         </core-menu>
       </core-header-panel>
 
-      <span tool>Polymer_Template</span>
+      <div id="div" tool>Polymer_Template</div>
 
       <div class="content">
         <p>If the menu drawer is hidden, press the hamburger button to display. Resize your browser window to cause it to collapse.</p>
