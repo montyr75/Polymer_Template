@@ -10,13 +10,3 @@ Polymer Dart Template
 6. If your project shows errors at this point, select the root of your project in the Dart Editor's Files panel and select Tools->Reanalyze Sources (or use Ctrl+Alt+Shift+B).
 
 *REMINDER:* Take a moment now to edit your pubspec.yaml metadata and README.md files.
-
-#### Using LESS for CSS
-This template uses [LESS](http://lesscss.org), the CSS pre-processor. Continuing to use it for your project is optional, but recommended.
-
-1. Make sure you've installed [Node.js](http://nodejs.org).
-2. Install LESS with NPM (Node Package Manager) from a command line: `npm install -g less`
-3. To compile app.css from app.less, you have a few options.
-    * From the command line: `lessc app.less > app.css` (add `-x` to minify)
-    * With [WebStorm](http://www.jetbrains.com/webstorm) or a compatible IDE from [Jetbrains](http://www.jetbrains.com): Set up a [File Watcher](https://www.jetbrains.com/webstorm/webhelp/using-file-watchers.html).
-    * Or [use Grunt](http://ericnishio.com/blog/compile-less-files-with-grunt) to compile them. *Note:* Windows users don't need `sudo` in their installation commands.
