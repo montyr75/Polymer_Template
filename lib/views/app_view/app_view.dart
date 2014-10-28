@@ -9,15 +9,16 @@ import '../../utils/filters.dart';
 @CustomTag('app-view')
 class AppView extends PolymerElement {
 
+  // initialize system log
+  bool _logInitialized = initLog();
+
   @observable String bindingTest = "Binding is working...";
 
   // filters and transformers can be referenced as class fields
   final Transformer asInteger = new StringToInt();
 
   // non-visual initialization can be done here
-  AppView.created() : super.created() {
-    initLog();
-  }
+  AppView.created() : super.created();
 
   // life-cycle method called by the Polymer framework when the element is attached to the DOM
   @override void attached() {
