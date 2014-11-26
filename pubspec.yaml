@@ -7,3 +7,7 @@ dependencies:
 transformers:
 - polymer:
     entry_points: web/index.html
+- $dart2js:
+    checked: false
+    minify: true
+    commandLineOptions: ['--trust-type-annotations', '--trust-primitives']
