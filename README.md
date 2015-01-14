@@ -1,6 +1,6 @@
-Polymer Dart Template (Simple)
+Polymer Dart Template
 ======
-*Tested with Polymer version:* 0.15.1+3
+*Tested with Polymer version:* 0.15.5
 
 1. Create a new folder for your app in your Dart projects folder using Windows Explorer or Mac Finder.
 2. Copy the contents of the `Polymer_Template_Simple` folder into your new app folder.
